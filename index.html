@@ -10,6 +10,29 @@
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
+	<style>
+		#juicer-section {
+			background-color: #f9f9f9;
+			padding: 20px;
+			border-radius: 8px;
+			margin: 20px 0;
+			box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+		}
+
+		#juicer-section h2 {
+			margin-bottom: 15px;
+			color: #333;
+		}
+
+		.juicer-embed {
+			max-width: 100%;
+			overflow: hidden;
+		}
+
+		.j-overlay {
+			padding-top: 10vh !important
+		}
+	</style>
 </head>
 
 <body class="is-preload">
@@ -29,6 +52,7 @@
 				<li><a href="#about" class="active">About</a></li>
 				<li><a href="#training">Training</a></li>
 				<li><a href="#gallery">Gallery</a></li>
+				<li><a href="#instagram-feed">Latest Posts</a></li>
 			</ul>
 		</nav>
 
@@ -116,6 +140,19 @@
 					<br>
 				</header>
 			</section>
+
+			<!-- Juicer Embed Section -->
+			<section id="instagram-feed" class="main special">
+				<header class="major">
+				<h2>Latest Posts</h2>
+				<div class="juicer-embed">
+					<script type="text/javascript"
+						src="https://www.juicer.io/embed/warringtonwolvesvc/embed-code.js?per=4&columns=4" async
+						defer></script>
+				</div>
+			</header>
+			</section>
+
 		</div>
 
 		<!-- Footer -->
