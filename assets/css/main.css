@@ -3,6 +3,37 @@
 
 * {box-sizing:border-box}
 
+
+    #documents h2 {
+        color: #004080;
+    }
+
+    .documents-list {
+        list-style: none;
+        padding: 0;
+    }
+
+    .documents-list li {
+        margin: 10px 0;
+    }
+
+    .documents-list a {
+        text-decoration: none;
+        color: #004080;
+        font-weight: bold;
+        background: #ffffff;
+        padding: 8px 12px;
+        border-radius: 5px;
+        display: inline-block;
+        transition: background 0.3s ease, color 0.3s ease;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    }
+
+    .documents-list a:hover {
+        background: #004080;
+        color: #ffffff;
+    }
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
